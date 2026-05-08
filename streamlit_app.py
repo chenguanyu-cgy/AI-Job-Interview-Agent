@@ -1,7 +1,5 @@
 import sys
 from pathlib import Path
-
-# 把项目根目录加入模块搜索路径
 sys.path.append(str(Path(__file__).parent))
 import streamlit as st
 import os
