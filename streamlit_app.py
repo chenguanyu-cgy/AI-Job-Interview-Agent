@@ -1,9 +1,10 @@
+import sys
+from pathlib import Path
+
+# 把项目根目录加入模块搜索路径
+sys.path.append(str(Path(__file__).parent))
 import streamlit as st
 import os
-import sys
-
-# 把项目根目录加入Python路径
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from datetime import datetime
 import json
 
