@@ -8,3 +8,4 @@ docx2txt
 fpdf
 openai
 loguru
+requests
